@@ -6,12 +6,14 @@
 // A continuación, te explicaré los tipos de scripts y las condiciones que puedes usar en MNL.
 // Below, I will explain the types of scripts and the conditions you can use in MNL.
 
+
 // Tipos de Scripts en MNL:
 // Types of Scripts in MNL:
 // 1. ScriptGeneral: Afecta a todos los jugadores en la partida. // Affects all players in the game.
 // 2. ScriptJugador: Solo se ejecuta en un jugador específico. // Runs only for a specific player.
 // 3. ScriptServidor: Maneja la lógica del servidor y la interacción entre jugadores. // Handles server-side logic and player interaction.
 // 4. ScriptUsuario: Se utiliza para aplicaciones y no videojuegos. // Used for applications, not games.
+
 
 // Condiciones en MNL:
 // Conditions in MNL:
@@ -23,21 +25,26 @@
 // - verdadero (true): Es el valor de una condición cuando es cierto. // "verdadero" (true): The value of a condition when it's true.
 // - falso (false): Es el valor de una condición cuando no se cumple. // "falso" (false): The value of a condition when it's false.
 
+
 // Explicación de los Comentarios:
 // Explanation of the Comments:
 // Los comentarios son anotaciones que se agregan al código para explicar qué hace el código. No afectan la ejecución del programa. En MNL, los comentarios comienzan con "//" y todo lo que sigue es un comentario. Esto es útil para hacer que el código sea más fácil de entender y mantener.
 // Comments are annotations added to the code to explain what the code does. They do not affect the execution of the program. In MNL, comments begin with "//" and everything following it is a comment. This is helpful to make the code easier to understand and maintain.
 
+
 // Ahora veamos cómo usar estos conceptos en MNL:
 // Now let's see how to use these concepts in MNL:
 
+
 script("ScriptGeneral") // Este es un ejemplo de un ScriptGeneral. // This is an example of a ScriptGeneral.
+
 
 si (jugador.vida < 50) entonces // Si la vida de un jugador es menor a 50... // If a player's health is less than 50...
     mostrar("¡Tu vida está baja, busca salud!") // Se muestra este mensaje a todos los jugadores. // This message will be shown to all players.
 salva
     mostrar("Tu vida está a buen nivel.") // Si la vida es mayor o igual a 50, se muestra este mensaje. // If the health is greater than or equal to 50, this message will be shown.
 fin
+
 
 script("ScriptJugador") // Este script solo afecta a un jugador. // This script only affects one player.
 
