@@ -5,6 +5,8 @@
 // This is a ScriptGeneral, it affects all players in the game
 // Este es un ScriptGeneral, afecta a todos los jugadores en el juego
 
+
+
 ScriptGeneral
     // If the player's X position is greater than 100, move them to the left
     // Si la posición X del jugador es mayor que 100, muévelo a la izquierda
